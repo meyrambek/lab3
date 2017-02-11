@@ -1,0 +1,23 @@
+
+<html>
+<body>
+  <script>
+  var arr = [A=120,B=45],
+      fMax;
+  function getMax(arr) {
+    var arrLen = arr.length,
+        maxElement = arr[0];
+    for (var i = 0; i < arrLen; i++) {
+      if (maxElement < arr[i]) {
+        maxElement = arr[i];
+      }
+    }
+    return maxElement;
+  }
+  fMax = getMax(arr);
+  console.log(fMax); 
+  document.write(" max element=" + fMax);
+  alert("max element="+fMax);
+  </script>
+</body>
+</html>
