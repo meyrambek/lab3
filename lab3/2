@@ -1,0 +1,23 @@
+
+<html>
+<body>
+  <script>
+  var arr = [A=0,B=-9],
+      fMin;
+  function getMin(arr) {
+    var arrLen = arr.length,
+        minSan = arr[0];
+    for (var i = 0; i < arrLen; i++) {
+      if (minSan > arr[i]) {
+        minSan = arr[i];
+      }
+    }
+    return minSan;
+  }
+  fMin = getMin(arr);
+  console.log(fMin); 
+  document.write(" Min elem =" + fMin);
+  alert("min elem =" + fMin);
+  </script>
+</body>
+</html>
